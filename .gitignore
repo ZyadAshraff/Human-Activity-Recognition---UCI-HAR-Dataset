@@ -1,0 +1,31 @@
+# Dataset files (downloaded automatically in notebook)
+*.zip
+Dataset/
+har_patchtst_results/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# HuggingFace & Keras cache
+~/.cache/huggingface/
+~/.keras/
+
+# Generated CSVs (recreated by notebook)
+train.csv
+test.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
